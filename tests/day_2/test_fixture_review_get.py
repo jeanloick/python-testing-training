@@ -1,7 +1,7 @@
 import pytest
 from restaurant_reviews import RestaurantReviews
 
-# @pytest.fixture.... -> conftest.py
+# @pytest.fixture.... -> conf_test.py
 
 @pytest.mark.parametrize("restaurant_title, review_text, review_rating, expected_output",[
     ("Cafe Mocha","Great coffee and pastries.", 4, "Review added for Cafe Mocha."),
